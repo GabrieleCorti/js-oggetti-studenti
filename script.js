@@ -53,7 +53,7 @@ aggiungiStudente.addEventListener("click",
     function (){
         var nomeValue = prompt("dimmi il nome del pveretto");
         var cognomeValue = prompt("aggiungi i cognome del poveretto");
-        var etaValue = prompt("dimmi la sua età (sei proprio un haker pazzerello");
+        var etaValue = prompt("dimmi la sua età (sei proprio un haker pazzerello)";
 
         allStudenti.push({
             nome: nomeValue,
