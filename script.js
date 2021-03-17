@@ -46,3 +46,23 @@ for (let i = 0; i < allStudenti.length; i++) {
     listaStudenti.innerHTML += "<li>" + allStudenti[i]["nome"] + " " +allStudenti[i]["cognome"] + "</li>";
 
 }
+
+var aggiungiStudente = document.getElementById("aggiunta")
+
+aggiungiStudente.addEventListener("click", 
+    function (){
+        var nome = prompt("dimmi il nome del pveretto");
+        var cognome = prompt("aggiungi i cognome del poveretto");
+        var eta = prompt("dimmi la sua età (sei proprio un haker pazzerello");
+
+        allStudenti.push({
+            nome: nome,
+            cognome: cognome,
+            eta: eta
+        })
+
+        listaStudenti.innerHTML += "<li>" + cognome + " " + nome + "</li>";
+        
+    }
+
+);

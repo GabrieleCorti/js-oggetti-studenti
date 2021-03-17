@@ -1,0 +1,12 @@
+.titolone {
+    text-align: center;
+}
+
+.liste, h2 {
+    text-align: center;
+}
+
+
+li {
+    list-style: none;
+}
