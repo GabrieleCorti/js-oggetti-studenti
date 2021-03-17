@@ -51,17 +51,17 @@ var aggiungiStudente = document.getElementById("aggiunta")
 
 aggiungiStudente.addEventListener("click", 
     function (){
-        var nome = prompt("dimmi il nome del pveretto");
-        var cognome = prompt("aggiungi i cognome del poveretto");
-        var eta = prompt("dimmi la sua età (sei proprio un haker pazzerello");
+        var nomeValue = prompt("dimmi il nome del pveretto");
+        var cognomeValue = prompt("aggiungi i cognome del poveretto");
+        var etaValue = prompt("dimmi la sua età (sei proprio un haker pazzerello");
 
         allStudenti.push({
-            nome: nome,
-            cognome: cognome,
-            eta: eta
+            nome: nomeValue,
+            cognome: cognomeValue,
+            eta: etaValue
         })
 
-        listaStudenti.innerHTML += "<li>" + cognome + " " + nome + "</li>";
+        listaStudenti.innerHTML += "<li>" + cognomeValue + " " + nomeValue + "</li>";
         
     }
 
