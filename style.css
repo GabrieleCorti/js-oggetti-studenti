@@ -10,3 +10,13 @@
 li {
     list-style: none;
 }
+
+button {
+    border: 3px solid #38cdeb;
+    background-color: transparent;
+    color: #38cdeb;
+    padding: 20px;
+    box-shadow: none;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -55,14 +55,18 @@ aggiungiStudente.addEventListener("click",
         var cognomeValue = prompt("aggiungi i cognome del poveretto");
         var etaValue = prompt("dimmi la sua età (sei proprio un haker pazzerello)");
 
+       if (nomeValue != null && cognomeValue != null && etaValue != null) {
+
         allStudenti.push({
             nome: nomeValue,
             cognome: cognomeValue,
             eta: etaValue
         })
 
-        listaStudenti.innerHTML += "<li>" + cognomeValue + " " + nomeValue + "</li>";
+        listaStudenti.innerHTML += "<li>" + nomeValue + " " + cognomeValue + "</li>";
+       }
         
     }
 
 );
+
